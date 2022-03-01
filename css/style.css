@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 120px;
+
+}
+.logo{
+    height: 150px;
+    vertical-align: middle;
+}
+
+.nomelogo{
+    display: inline-block;
+    font-weight: bold;
+    vertical-align: middle;
+}
