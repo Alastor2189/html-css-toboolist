@@ -5,12 +5,13 @@
 }
 body{
     font-family: Arial;
+    background-color: #f6f8f9;
 }
 
 .header{
     height: 90px;
-    
-
+    background-color: white;
+    padding: 23px;
 }
 
 .logo{
@@ -28,13 +29,21 @@ body{
     font-weight: bold;
 
 }
+main{
+    background-color: white;
+    width: 68%;
+    margin: auto;
+    margin-top: 65px;
+    padding: 30px 40px;
+}
 .select{
-    color: lightgray;
+    color: #d4d8dc;
     border-radius: 14px;
     padding: 8px 16px;
     font-weight: bold;
     font-size: 16px;
     background-color: white;
+    border: 1px solid #d4d8dc;
 }
 .task{
     color: white;
@@ -42,7 +51,11 @@ body{
     padding: 8px 16px;
     font-weight: bold;
     font-size: 16px;
-    background-color: blue;
+    background-color: #45abea;
+    border: 1px solid #45abea;
+}
+.lista{
+    margin-top: 50px;
 }
 .lista li{
     list-style: none;
@@ -51,19 +64,20 @@ body{
     padding: 8px 0;
 }
 .x{
-    color: red;
-    border-color: red;
-    border-radius: 50%;
-    padding: 2px 7px;
-    border-style: solid;
+    
+    color: #ed7570;
+    border-radius: 50%; 
+    padding: 0px 3px;
+    border: 2px solid #ed7570;
+    font-weight: bold;
 
 }
 .v{
-    color: green;
-    border-color: green;
-    border-radius: 50%;
-    padding: 2px 7px;
-    border-style: solid;
+    color: #64c0a9;
+    border-radius: 50%; 
+    padding: 0px 3px;
+    border: 2px solid #64c0a9;
+    font-weight: bold;
 
 }
 .tag{
@@ -75,30 +89,30 @@ body{
 }
 .editorial{
    
-    background-color: blue;
+    background-color: #45abea;
     
 }.goals{
    
-    background-color: purple;
+    background-color: #9c72e4;
    
 }
 .recruiting{
     
-    background-color: green;
+    background-color: #64c0a9;
    
 }
 .mobile{
   
-    background-color: orange;
+    background-color: #f29e33;
     
 }
 .website{
     
-    background-color: pink;
+    background-color: #d863a1;
    
 }
 .sales{
    
-    background-color: lightgreen;
+    background-color: #b0c926;
 
 }
